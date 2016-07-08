@@ -1,0 +1,14 @@
+{
+    "name": "francescomalatesta/webdevbot",
+    "description": "A bot for the Web Developer Italiani Facebook group.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Francesco Malatesta",
+            "email": "hellofrancesco@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^3.1"
+    }
+}
