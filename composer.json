@@ -9,6 +9,12 @@
         }
     ],
     "require": {
-        "symfony/console": "^3.1"
+        "symfony/console": "^3.1",
+        "vlucas/phpdotenv": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebDevBot\\": "src/"
+        }
     }
 }
