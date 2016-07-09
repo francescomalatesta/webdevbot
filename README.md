@@ -8,10 +8,14 @@ Basically, this bot fetch the group feed every fifteen minutes to get the latest
 
 After X minutes (the value, in minutes, can be specified in TIME_SLOT in .env file), if the hashtags are still missing, the post is deleted.
 
-## Release Notes
+## Install Notes
 
 Before use, make sure you've created the `data.json` file with the following content:
 
     []
 
 Thanks!
+
+## How to Use It
+
+Configure a cron job to execute the `./run` script every `env('TIME_SLOT')` minutes.
