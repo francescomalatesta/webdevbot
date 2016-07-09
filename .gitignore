@@ -1,1 +1,5 @@
 vendor
+
+.env
+app.log
+data.json

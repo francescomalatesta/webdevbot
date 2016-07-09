@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+export USER_ID=$(id -u -r)
+
+docker run --rm -u="$USER_ID" -v $(pwd):/app composer/composer install

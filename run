@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+export USER_ID=$(id -u -r)
+
+docker run -it --rm -u="$USER_ID" --name web-dev-bot -v "$PWD":/usr/src/myapp -w /usr/src/myapp php:7.0-cli php index.php process
+docker run -it --rm -u="$USER_ID" --name web-dev-bot -v "$PWD":/usr/src/myapp -w /usr/src/myapp php:7.0-cli php index.php report
